@@ -14,16 +14,11 @@ body.landing {
   align-items: center;
 }
 
-/*
-.overlay {
-  text-align: center;
+body.landing h1 {
   color: white;
-  background-color: rgba(0, 0, 0, 0);
-  padding: 2rem;
-  border-radius: 10px;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
-*/
-
 
 .enter-button {
   display: inline-block;
