@@ -12,6 +12,7 @@ body.landing {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 body.landing h1 {
@@ -27,10 +28,15 @@ body.landing h1 {
   background-color: transparent;
   color: white;
   text-decoration: none;
-  border: 2px solid white;
+  border: 1px white;
   font-weight: bold;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 0.6em;
+}
+
+.enter-button:hover {
+  background-color: white;
+  color: transparent;
 }
 
 header {
